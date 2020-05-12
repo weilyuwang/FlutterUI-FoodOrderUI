@@ -71,6 +71,7 @@ class RecentOrders extends StatelessWidget {
               ],
             ),
           ),
+          // '+' Button
           Container(
             margin: EdgeInsets.only(right: 20.0),
             width: 48.0,
@@ -84,7 +85,7 @@ class RecentOrders extends StatelessWidget {
               color: Colors.white,
               onPressed: () {},
             ),
-          )
+          ),
         ],
       ),
     );
